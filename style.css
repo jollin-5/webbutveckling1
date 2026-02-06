@@ -1,0 +1,85 @@
+/* =====================================
+   Typsnitt för rubriker (h1–h6)
+   Enligt uppgiften ska rubriker använda
+   Arial, Helvetica, sans-serif
+   ===================================== */
+h1, h2, h3, h4, h5, h6 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* =====================================
+   Typsnitt för övrig text
+   Body används för att påverka all
+   vanlig text på sidan
+   ===================================== */
+body {
+    font-family: Candara, Verdana, sans-serif;
+}
+
+/* =====================================
+   Klass för lista
+   Visar användning av class i CSS
+   ===================================== */
+.lista {
+    list-style-type: square;
+}
+
+/* =====================================
+   Tabell 1
+   Bakgrundsfärg enligt uppgiften: #ffcccc
+   ===================================== */
+.tabell1 {
+    background-color: #ffcccc;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+/* =====================================
+   Tabell 2
+   Bakgrundsfärg enligt uppgiften: #ffcc99
+   ===================================== */
+.tabell2 {
+    background-color: #ffcc99;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+/* =====================================
+   Gemensam stil för tabellceller
+   Gör tabellerna tydligare och lättare
+   att läsa
+   ===================================== */
+.tabell1 td,
+.tabell2 td,
+.tabell2 th {
+    border: 1px solid #000;
+    padding: 6px 10px;
+}
+
+/* =====================================
+   Text längst ner på sidan
+   ID används enligt uppgiften
+   Grön färg: #009900
+   ===================================== */
+#source {
+    color: #009900;
+}
+
+/* =====================================
+   Grundutseende för länkar
+   ===================================== */
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+/* =====================================
+   Hover-effekt för länkar
+   När muspekaren förs över länken
+   ändras färg och bakgrund
+   ===================================== */
+a:hover {
+    color: white;
+    background-color: #009900;
+    padding: 2px 4px;
+}
